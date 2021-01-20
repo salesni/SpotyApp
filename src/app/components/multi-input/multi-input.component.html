@@ -1,0 +1,8 @@
+<label> Number of Numbers </label>
+<br>
+<input  #number type="number" name="" id="">
+<button (click)="array(number.value)"  type="button" class="btn btn-info">Add </button>
+
+<input  #number type="number" name="" id="input{{i}}" *ngFor = "let item of items; let i =index" placeholder="input{{i}}">
+
+
